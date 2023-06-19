@@ -1,4 +1,3 @@
-# docker build -t ros2:dashing .
 FROM ubuntu:latest
 ENV DEBIAN_FRONTEND noninteractive
 
