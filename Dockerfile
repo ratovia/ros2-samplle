@@ -26,7 +26,7 @@ RUN apt update -y && \
     apt install -y devscripts && \
     apt install -y vim && \
     apt install -y python3-dev && \
-    apt install -y dh-python && \
+    apt install -y dh-python
 
 RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 CMD ["bash"]
