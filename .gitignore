@@ -1,3 +1,14 @@
 log/
 install/
 build/
+
+*.buildinfo
+*.changes
+*.deb
+*.cfg
+debhelper-build-stamp
+files
+*.egg-info/
+dist-packages/
+usr/
+DEBIAN/

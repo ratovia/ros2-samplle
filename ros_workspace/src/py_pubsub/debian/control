@@ -2,11 +2,10 @@ Source: py-pubsub
 Section: misc
 Priority: optional
 Maintainer: ratovia <ratovia@hotmail.co.jp>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper-compat (= 12), python3 (>= 3.6), dh-python
 Standards-Version: 3.9.8
 
 Package: py-pubsub
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: py-pubsub, a ROS package
-```

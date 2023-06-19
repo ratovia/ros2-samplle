@@ -1,5 +1,30 @@
-py_pubsub (1.0.0) jammy; urgency=low
+py-pubsub (2.0.5) UNRELEASED; urgency=medium
 
-  * Initial release
+  * Describe changes made in this version.
 
- -- ratovia <ratovia@hotmail.co.jp>  Mon, 6 Jun 2023 10:00:00 +0900
+ -- ratovia <ratovia@hotmail.co.jp>  Mon, 19 Jun 2023 05:17:12 +0000
+
+py-pubsub (2.0.4) jammy; urgency=medium
+
+  * 
+  * Describe changes made in this version.
+  * Describe changes made in this version.
+
+ -- ratovia <ratovia@hotmail.co.jp>  Mon, 19 Jun 2023 05:16:58 +0000
+
+py-pubsub (2.0.3ubuntu5) jammy; urgency=medium
+
+  * helloX 
+
+ -- ratovia <ratovia@hotmail.co.jp>  Mon, 19 Jun 2023 05:14:06 +0000
+
+py-pubsub (2.0.3ubuntu2) jammy; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+  * Some changes for the new version.
+  * 
+  * Some changes for the new version.
+  * Some changes for the new version.
+  * Describe changes made in this version.
+
+ -- ratovia <ratovia@hotmail.co.jp>  Mon, 19 Jun 2023 05:13:16 +0000
