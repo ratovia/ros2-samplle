@@ -1,0 +1,9 @@
+version: '3'
+services:
+  # docker-compose run -it ros2 bash
+  ros2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./ros_workspace:/ros_workspace
