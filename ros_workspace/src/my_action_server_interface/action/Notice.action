@@ -1,0 +1,11 @@
+# Goal
+int32 order_id
+
+---
+# Result
+bool success
+string result_message
+
+---
+# feedback
+int32 progress
