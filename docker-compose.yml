@@ -7,3 +7,6 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./ros_workspace:/ros_workspace
+    environment:
+      DEBFULLNAME: "${GIT_USERNAME}"
+      DEBEMAIL: "${GIT_EMAIL}"

@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 ENV DEBIAN_FRONTEND noninteractive
 
+# Install ROS2
 RUN apt update -y && \
     apt install -y locales && \
     locale-gen ja_JP ja_JP.UTF-8 && \
@@ -20,12 +21,19 @@ RUN apt update -y && \
     echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | tee /etc/apt/sources.list.d/ros2.list > /dev/null && \
     apt update -y && \
     apt install -y ros-humble-ros-base && \
-    apt install -y ros-dev-tools && \
-    apt install -y debhelper && \
+    apt install -y ros-dev-tools
+
+# Install debian package build tools
+RUN apt install -y debhelper && \
     apt install -y devscripts && \
-    apt install -y vim && \
     apt install -y python3-dev && \
     apt install -y dh-python
+
+# Install utilities
+RUN apt install -y vim && \
+    apt install -y tmux
+
+ENV EDITOR vim
 
 RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 CMD ["bash"]
