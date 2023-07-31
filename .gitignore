@@ -8,6 +8,7 @@ build/
 *.buildinfo
 *.changes
 *.deb
+*.ddeb
 *.cfg
 debhelper-build-stamp
 files
@@ -15,3 +16,6 @@ files
 dist-packages/
 usr/
 DEBIAN/
+
+apple
+apple_interface
