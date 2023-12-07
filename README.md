@@ -38,7 +38,6 @@ build/
 *.buildinfo
 *.changes
 *.deb
-*.cfg
 debhelper-build-stamp
 files
 *.egg-info/
